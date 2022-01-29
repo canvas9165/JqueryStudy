@@ -1,11 +1,4 @@
-$(()=>{
-
-
-
-  $('.blue-box').slideUp(2000);
-  $('.blue-box').slideDown(2000);
-
-  
-
-
+$(() => {
+  $("a").addClass("fancy-link");
+  $("p:first").addClass("large emphasize");
 });
